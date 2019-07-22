@@ -51,6 +51,7 @@
         <slf4j-api.version>1.7.25</slf4j-api.version>
         <commons-text.version>1.7</commons-text.version>
         <commons-lang3.version>3.5</commons-lang3.version>
+        <google.apis.version>v4-rev581-1.25.0</google.apis.version>
         <commons-logging.version>1.2</commons-logging.version>
         <commons-cli.version>1.2</commons-cli.version>
         <commons-io.version>2.5</commons-io.version>
@@ -413,6 +414,11 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.apis</groupId>
+                <artifactId>google-api-services-sheets</artifactId>
+                <version>${google.apis.version}</version>
             </dependency>
             <dependency>
                 <groupId>commons-logging</groupId>
