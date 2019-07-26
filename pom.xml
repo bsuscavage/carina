@@ -420,11 +420,11 @@
                 <artifactId>google-api-services-sheets</artifactId>
                 <version>${google.apis.version}</version>
             </dependency>
-            <dependency>
-                <groupId>commons-logging</groupId>
-                <artifactId>commons-logging</artifactId>
-                <version>${commons-logging.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>commons-logging</groupId>-->
+<!--                <artifactId>commons-logging</artifactId>-->
+<!--                <version>${commons-logging.version}</version>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
@@ -567,28 +567,28 @@
                 <groupId>commons-beanutils</groupId>
                 <artifactId>commons-beanutils</artifactId>
                 <version>${commons-beanutils.version}</version>
-		<exclusions>
-			<exclusion>
-				<groupId>commons-logging</groupId>
-				<artifactId>commons-logging</artifactId>
-			</exclusion>
-		</exclusions>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
-            <dependency>
-                <groupId>javax.mail</groupId>
-                <artifactId>mail</artifactId>
-                <version>${javax-mail.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>javax.mail</groupId>-->
+<!--                <artifactId>mail</artifactId>-->
+<!--                <version>${javax-mail.version}</version>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>com.pojosontheweb</groupId>
                 <artifactId>monte-repack</artifactId>
                 <version>${monte-repack.version}</version>
             </dependency>
-            <dependency>
-                <groupId>com.googlecode.json-simple</groupId>
-                <artifactId>json-simple</artifactId>
-                <version>${json-simple.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>com.googlecode.json-simple</groupId>-->
+<!--                <artifactId>json-simple</artifactId>-->
+<!--                <version>${json-simple.version}</version>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>

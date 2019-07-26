@@ -43,10 +43,10 @@
 		</dependency>
 
 		<!-- carina-reporting only dependencies -->
-		<dependency>
-			<groupId>javax.mail</groupId>
-			<artifactId>mail</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>javax.mail</groupId>-->
+<!--			<artifactId>mail</artifactId>-->
+<!--		</dependency>-->
 
 		<!-- Zafira -->
 		<dependency>
@@ -60,20 +60,20 @@
 			<artifactId>monte-repack</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>com.googlecode.json-simple</groupId>
-			<artifactId>json-simple</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.googlecode.json-simple</groupId>-->
+<!--			<artifactId>json-simple</artifactId>-->
+<!--		</dependency>-->
 
-		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>com.google.code.gson</groupId>-->
+<!--			<artifactId>gson</artifactId>-->
+<!--		</dependency>-->
 
-		<dependency>
-			<groupId>commons-logging</groupId>
-			<artifactId>commons-logging</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>commons-logging</groupId>-->
+<!--			<artifactId>commons-logging</artifactId>-->
+<!--		</dependency>-->
 
 	</dependencies>
 	
