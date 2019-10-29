@@ -59,6 +59,7 @@
         <jna.version>3.0.9</jna.version>
         <!-- Selenium -->
         <selenium.version>3.141.59</selenium.version>
+        <selenium-server.version>4.0.0-alpha-2</selenium-server.version>
         <appium.version>7.2.0</appium.version>
         <!-- Qaprosoft integrations -->
         <zafira-client.version>4.1.63</zafira-client.version>
@@ -458,7 +459,7 @@
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-server</artifactId>
-                <version>${selenium.version}</version>
+                <version>${selenium-server.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
